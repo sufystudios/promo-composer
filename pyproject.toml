@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "promocompose"
+version = "0.1.0"
+description = "Promo videos (16:9, 9:16, 1:1, 4:5), thumbnails and checked post text for apps, from JSON specs."
+readme = "README.md"
+license = { text = "MIT" }
+requires-python = ">=3.9"
+dependencies = ["pillow>=10.1"]
+keywords = ["promo video", "youtube", "shorts", "thumbnail", "app store", "google play", "ffmpeg", "ai-agents"]
+
+[project.scripts]
+promocompose = "promocompose.cli:main"
+
+[tool.setuptools]
+packages = ["promocompose"]

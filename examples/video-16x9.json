@@ -1,0 +1,19 @@
+{
+  "out": "examples/out/promo.mp4",
+  "format": "16:9",
+  "hook": "MY PHONE IS PLAYING THE WINDOWS PLUGIN",
+  "kicker": "STEREO FILTERS · MOTION",
+  "panels": [
+    {"label": "Android phone, playing its MOTION"},
+    {"label": "The free Windows plugin, over Wi-Fi", "crop": [0, 56, 2432, 1080]}
+  ],
+  "clips": [
+    {"name": "Orbit", "caption": "The sound swinging from left to right and back",
+     "sources": ["takes/s1/android.mp4", "takes/s1/window.mov"], "starts": [6.2, 6.435], "duration": 10.1, "audio": 1},
+    {"name": "Binary Stars", "caption": "Two stars circling: each ear swells as the other fades",
+     "sources": ["takes/s2/android.mp4", "takes/s2/window.mov"], "starts": [6.2667, 6.42], "duration": 10.1, "audio": 1}
+  ],
+  "note": "Headphones on",
+  "footer": "MyApp · Android · iPhone · iPad · Mac",
+  "end_card": {"title": "MyApp", "lines": ["The one line that sells it", "Where to get it"], "icon": "icon.png", "seconds": 4}
+}
